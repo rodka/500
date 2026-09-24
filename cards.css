@@ -1,0 +1,29 @@
+.style-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+.flashcard {
+  background: var(--accent-light);
+  border: 1px solid var(--accent);
+  border-radius: 11px;
+  padding: 20px;
+}
+.flashcard #answer-text {
+  font-size: 1.09rem;
+  font-weight: 670;
+  line-height: 1.55;
+  margin: 20px 0;
+}
+.grade-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.grade-buttons button { min-width: 150px; }
+.flashcard .secondary { background: var(--card); }
+@media (max-width: 520px) {
+  .style-grid { grid-template-columns: 1fr; }
+  .grade-buttons button { flex: 1; }
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172538">
+  <title>Otázky ČKAIT · TZS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cards.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">Příprava na autorizaci · ČKAIT</p>
+        <h1>Technologická zařízení staveb</h1>
+        <p class="lede">Kvíz z otázek oboru TZS. Zadání a správné odpovědi vycházejí z dodaného vydání aktualizovaného k 30. 7. 2026.</p>
+      </div>
+      <a class="source-link" href="https://www.ckait.cz/otazky-k-pisemne-casti-zkousky-odborne-zpusobilosti-ckait" target="_blank" rel="noopener noreferrer">Podklad ČKAIT ↗</a>
+    </header>
+
+    <main>
+      <div id="load-error" class="notice error hidden" role="alert"></div>
+      <section id="home" aria-labelledby="setup-heading">
+        <div class="stats" aria-live="polite">
+          <article><strong id="stat-total">—</strong><span>Otázek v podkladu</span></article>
+          <article><strong id="stat-seen">—</strong><span>Probraných</span></article>
+          <article><strong id="stat-wrong">—</strong><span>K opakování</span></article>
+          <article><strong id="stat-success">—</strong><span>Správných odpovědí</span></article>
+        </div>
+
+        <div class="layout">
+          <section class="panel" aria-labelledby="setup-heading">
+            <div class="panel-header"><span class="step">01</span><h2 id="setup-heading">Nastavit trénink</h2></div>
+            <div class="mode-grid" role="group" aria-label="Režim tréninku">
+              <label class="mode"><input type="radio" name="mode" value="all" checked><span><b>Všechny otázky</b><small>Náhodný výběr z banky</small></span></label>
+              <label class="mode"><input type="radio" name="mode" value="wrong"><span><b>Chybné otázky</b><small>Zůstávají do dvou správných odpovědí</small></span></label>
+              <label class="mode"><input type="radio" name="mode" value="unseen"><span><b>Dosud neviděné</b><small>Otázky bez uloženého pokusu</small></span></label>
+              <label class="mode"><input type="radio" name="mode" value="favorite"><span><b>Označené</b><small>Vlastní výběr k opakování</small></span></label>
+            </div>
+            <div class="style-grid" role="group" aria-label="Způsob odpovídání">
+              <label class="mode"><input type="radio" name="study-style" value="choice" checked><span><b>Výběr A–D · všech 500</b><small>Tři přidané možnosti a jedna původní odpověď</small></span></label>
+              <label class="mode"><input type="radio" name="study-style" value="cards"><span><b>Kartičky · všech 500</b><small>Zkuste odpovědět a pak odkryjte znění z podkladu</small></span></label>
+            </div>
+            <div class="fields">
+              <label>Okruh<select id="category"><option value="all">Všechny okruhy</option></select></label>
+              <label>Počet otázek<select id="count"><option value="20">20 otázek</option><option value="50">50 otázek</option><option value="100">100 otázek</option><option value="all">Všechny dostupné</option></select></label>
+            </div>
+            <button id="start" class="primary" type="button">Spustit kvíz <span aria-hidden="true">→</span></button>
+          </section>
+          <aside class="panel side-panel">
+            <div class="panel-header"><span class="step">02</span><h2>Výsledky</h2></div>
+            <p>Chybné otázky se ukládají v tomto prohlížeči. Z množiny k opakování zmizí po dvou správných odpovědích za sebou.</p>
+            <div class="side-actions">
+              <button id="export" class="secondary" type="button">Stáhnout zálohu výsledků</button>
+              <label class="secondary file-button">Načíst zálohu<input id="import" type="file" accept="application/json,.json" hidden></label>
+              <button id="reset" class="text-button" type="button">Smazat výsledky v tomto prohlížeči</button>
+            </div>
+            <p class="privacy">Výsledky se nesynchronizují mezi zařízeními. Pro přenos použijte zálohu.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="quiz" class="quiz-view hidden" aria-label="Kvíz">
+        <div class="quiz-toolbar"><button id="back" class="text-button" type="button">← Zpět na výběr</button><span id="session-count"></span></div>
+        <div class="progress" role="progressbar" aria-label="Průběh testu"><div id="progress-fill"></div></div>
+        <article class="question-card">
+          <div class="question-top"><div class="tags"><span id="question-id" class="tag strong"></span><span id="question-category" class="tag"></span></div><button id="favorite" class="favorite" type="button" aria-label="Označit otázku" aria-pressed="false">☆</button></div>
+          <h2 id="question-text"></h2>
+          <div id="options" class="options" role="group" aria-label="Možnosti odpovědi"></div>
+          <div id="flashcard" class="flashcard hidden"><button id="reveal" class="secondary" type="button">Zobrazit správnou odpověď</button>
+            <div id="card-answer" class="hidden" aria-live="polite"><p id="answer-text"></p><div class="grade-buttons"><button id="unknown" class="secondary" type="button">Nevěděl(a) jsem</button><button id="known" class="primary" type="button">Věděl(a) jsem</button></div></div>
+          </div>
+          <div id="feedback" class="feedback hidden" role="status"></div>
+          <div class="question-bottom"><a id="pdf-link" href="#" target="_blank" rel="noopener noreferrer">Zobrazit stranu v podkladu ↗</a><button id="next" class="primary hidden" type="button">Další otázka →</button></div>
+        </article>
+      </section>
+
+      <section id="summary" class="panel summary hidden" aria-labelledby="summary-heading">
+        <p class="eyebrow">Test dokončen</p><h2 id="summary-heading">Výsledek</h2>
+        <p id="summary-score" class="score"></p>
+        <p id="summary-detail"></p>
+        <button id="summary-home" class="primary" type="button">Zpět na výběr</button>
+      </section>
+    </main>
+    <footer>Podklad: ČKAIT, 2. vydání V4 · Otázky z prvních 40 stran dodaného výřezu (500 položek). Chybné varianty jsou autorský tréninkový materiál.</footer>
+  </div>
+</body>
+</html>
