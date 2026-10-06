@@ -65,9 +65,9 @@ function render(){
     $("known").parentElement.classList.remove("hidden");
     $("answer-text").textContent=q.correct;
   }else{
-    shuffle([q.correct,...q.wrong]).forEach((option,i)=>{
+    shuffle([q.correct,...shuffle(q.wrong).slice(0,2)]).forEach((option,i)=>{
       const button=document.createElement("button");button.type="button";button.className="option";
-      const letter=document.createElement("span");letter.className="option-letter";letter.textContent="ABCD"[i];
+      const letter=document.createElement("span");letter.className="option-letter";letter.textContent="ABC"[i];
       const text=document.createElement("span");text.textContent=option;
       button.append(letter,text);button.addEventListener("click",()=>choose(option));box.append(button);
     });
@@ -162,6 +162,7 @@ async function init(){
     const categories=[...new Map(bank.map(q=>[q.category,q.category_name])).entries()];
     for(const [id,name] of categories){const option=document.createElement("option");option.value=id;option.textContent=`${id} · ${name}`;$("category").append(option)}
     updateStats();
+    initExam();
     $("start").addEventListener("click",start);
     $("reveal").addEventListener("click",reveal);
     $("known").addEventListener("click",()=>grade(true));
@@ -179,7 +180,7 @@ async function init(){
         progress={};saveProgress();updateStats();
       }
     });
-  }catch(e){showError(`${e.message} Web otevřete přes GitHub Pages nebo místní webový server.`);$("start").disabled=true}
+  }catch(e){showError(`${e.message} Web otevřete přes GitHub Pages nebo místní webový server.`);$("start").disabled=true;$("exam-start").disabled=true}
 }
 function rToggle(id){
   const r={...row(id)};r.favorite=!r.favorite;progress[id]=r;saveProgress();

@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#172538">
   <title>Otázky ČKAIT · TZS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261006">
   <link rel="stylesheet" href="cards.css">
-  <script src="app.js" defer></script>
+  <script src="exam-core.js?v=20261006" defer></script>
+  <script src="exam.js?v=20261006" defer></script>
+  <script src="app.js?v=20261006" defer></script>
+  <link rel="stylesheet" href="exam.css?v=20261006">
 </head>
 <body>
   <div class="shell">
@@ -30,6 +33,25 @@
           <article><strong id="stat-success">—</strong><span>Správných odpovědí</span></article>
         </div>
 
+        <section class="panel exam-setup" aria-labelledby="exam-heading">
+          <div class="panel-header"><span class="step">30 / 30</span><h2 id="exam-heading">Zkouška nanečisto</h2></div>
+          <p>30 otázek · 30 minut · odpovědi A–C. Řešení se zobrazí až po odevzdání. Během testu můžete odpovědi měnit a otázky přeskakovat.</p>
+          <label for="exam-kind">Složení testu</label>
+          <select id="exam-kind">
+            <option value="split">20 obecných + 10 oborových — pracovní členění</option>
+            <option value="mixed">30 otázek ze všech 500 — časovaný trénink</option>
+          </select>
+          <p id="exam-composition-note" class="exam-note" role="status">Načítám členění otázek…</p>
+          <details class="exam-rules"><summary>Pravidla, zdroje a omezení simulace</summary>
+            <p>ČKAIT stanoví 20 obecných a 10 oborových otázek, nejvýše 30 minut a jednu správnou odpověď ze tří. Každá správná odpověď má 1 bod. V tomto tréninku má nezodpovězená otázka 0 bodů.</p>
+            <p>Obecná část: 16–20 správně = vyhověl, 11–15 = doplňující ústní otázky, 0–10 = nevyhověl. Oborová část: 8–10 / 6–7 / 0–5. Selhání kterékoli části znamená nevyhověl.</p>
+            <p><strong>Zařazení do částí není potvrzené pro rok 2026.</strong> U shodně znějících otázek přebíráme členění z vydání V1.2 (1. 1. 2025). Nezařazené otázky jsou dostupné v procvičování a časovaném tréninku ze všech 500. Sestava není přizpůsobena užší specializaci uchazeče.</p>
+            <p>Výběr nejprve zastoupí dostupné okruhy a zbývající místa doplní náhodně. Jde o náš tréninkový postup; pevné počty otázek z okruhů A–R nemáme doložené. Chybné možnosti jsou autorské.</p>
+            <p><a href="https://www.ckait.cz/sites/default/files/2025-07/Pokyny%20AR%20k%20pou%C5%BE%C3%ADv%C3%A1n%C3%AD%20test%C5%AF%20revize%206-25.pdf" target="_blank" rel="noopener noreferrer">Pokyny k testům ČKAIT</a> · <a href="https://www.ckait.cz/sites/default/files/2025-01/OTAZKY-ke-zkouskam_CKAIT_v-1.2_2025-9.1.pdf" target="_blank" rel="noopener noreferrer">Podklad staršího členění, strana 4</a></p>
+          </details>
+          <p id="exam-error" class="notice error hidden" role="alert"></p>
+          <button id="exam-start" class="primary" type="button" disabled>Spustit zkoušku nanečisto</button>
+        </section>
         <div class="layout">
           <section class="panel" aria-labelledby="setup-heading">
             <div class="panel-header"><span class="step">01</span><h2 id="setup-heading">Nastavit trénink</h2></div>
@@ -40,12 +62,12 @@
               <label class="mode"><input type="radio" name="mode" value="favorite"><span><b>Označené</b><small>Vlastní výběr k opakování</small></span></label>
             </div>
             <div class="style-grid" role="group" aria-label="Způsob odpovídání">
-              <label class="mode"><input type="radio" name="study-style" value="choice" checked><span><b>Výběr A–D · všech 500</b><small>Tři přidané možnosti a jedna původní odpověď</small></span></label>
+              <label class="mode"><input type="radio" name="study-style" value="choice" checked><span><b>Výběr A–C · všech 500</b><small>Dvě chybné možnosti a jedna původní odpověď</small></span></label>
               <label class="mode"><input type="radio" name="study-style" value="cards"><span><b>Kartičky · všech 500</b><small>Zkuste odpovědět a pak odkryjte znění z podkladu</small></span></label>
             </div>
             <div class="fields">
               <label>Okruh<select id="category"><option value="all">Všechny okruhy</option></select></label>
-              <label>Počet otázek<select id="count"><option value="20">20 otázek</option><option value="50">50 otázek</option><option value="100">100 otázek</option><option value="all">Všechny dostupné</option></select></label>
+              <label>Počet otázek<select id="count"><option value="20">20 otázek</option><option value="30">30 otázek</option><option value="50">50 otázek</option><option value="100">100 otázek</option><option value="all">Všechny dostupné</option></select></label>
             </div>
             <button id="start" class="primary" type="button">Spustit kvíz <span aria-hidden="true">→</span></button>
           </section>
@@ -76,6 +98,29 @@
           <div class="question-bottom"><a id="pdf-link" href="#" target="_blank" rel="noopener noreferrer">Zobrazit stranu v podkladu ↗</a><button id="next" class="primary hidden" type="button">Další otázka →</button></div>
         </article>
       </section>
+
+      <section id="exam-view" class="quiz-view hidden" aria-label="Zkouška nanečisto">
+        <div class="quiz-toolbar"><button id="exam-back" class="text-button" type="button">← Ukončit bez hodnocení</button><strong id="exam-timer" role="timer" aria-label="Zbývající čas">30:00</strong></div>
+        <p id="exam-session-note" class="hint"></p>
+        <div class="exam-status"><span id="exam-position"></span><span id="exam-answered"></span></div>
+        <nav id="exam-nav" class="exam-nav" aria-label="Přehled otázek"></nav>
+        <article class="question-card">
+          <div class="tags"><span id="exam-id" class="tag strong"></span><span id="exam-category" class="tag"></span><span id="exam-part" class="tag"></span></div>
+          <h2 id="exam-question" tabindex="-1"></h2>
+          <div id="exam-options" class="options" role="group" aria-label="Možnosti odpovědi"></div>
+          <button id="exam-clear" class="text-button" type="button">Zrušit vybranou odpověď</button>
+          <div class="exam-controls"><button id="exam-prev" class="secondary" type="button">← Předchozí</button><button id="exam-next" class="secondary" type="button">Další →</button></div>
+        </article>
+        <div class="exam-submit-row"><button id="exam-submit" class="primary" type="button">Odevzdat test</button></div>
+      </section>
+      <section id="exam-result" class="panel hidden" aria-labelledby="exam-result-heading">
+        <p class="eyebrow">Test dokončen</p><h2 id="exam-result-heading" tabindex="-1">Výsledek zkoušky nanečisto</h2>
+        <p id="exam-score" class="score"></p><p id="exam-verdict"></p><p id="exam-result-note" class="exam-note"></p>
+        <div id="exam-scores"></div><p id="exam-completed-info"></p>
+        <button id="exam-result-home" class="primary" type="button">Zpět na výběr</button>
+        <h3>Kontrola odpovědí</h3><div id="exam-review"></div>
+      </section>
+      <dialog id="exam-confirm"><h2>Odevzdat test?</h2><p id="exam-confirm-text"></p><div class="exam-controls"><button id="exam-confirm-cancel" class="secondary" type="button">Pokračovat v testu</button><button id="exam-confirm-send" class="primary" type="button">Odevzdat</button></div></dialog>
 
       <section id="summary" class="panel summary hidden" aria-labelledby="summary-heading">
         <p class="eyebrow">Test dokončen</p><h2 id="summary-heading">Výsledek</h2>

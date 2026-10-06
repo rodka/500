@@ -841,8 +841,8 @@
     "option_method": "individuálně zkontrolované možnosti",
     "wrong": [
       "Ne",
-      "Ano, pouze u staveb vyžadujících povolení",
-      "Ano, ale jen na základě zvláštního rozhodnutí úřadu"
+      "Ne, vybranou činností je pouze ověřování výsledků zeměměřických činností; dozor projektanta mezi ně nepatří.",
+      "Ne, vybranou činností je pouze dozor projektanta; ověřování výsledků zeměměřických činností mezi ně nepatří."
     ]
   },
   {
@@ -859,8 +859,8 @@
     "option_method": "individuálně zkontrolované možnosti",
     "wrong": [
       "Ne",
-      "Ano, pouze u staveb vyžadujících povolení",
-      "Ano, ale jen na základě zvláštního rozhodnutí úřadu"
+      "Ne, územní studii může zpracovat i stavební dozor bez oprávnění projektanta.",
+      "Ne, pro územní studii postačí souhlas pořizovatele i u zpracovatele, který není projektantem."
     ]
   },
   {
@@ -931,8 +931,8 @@
     "option_method": "individuálně zkontrolované možnosti",
     "wrong": [
       "Ne",
-      "Ano, pouze u staveb vyžadujících povolení",
-      "Ano, ale jen na základě zvláštního rozhodnutí úřadu"
+      "Ne, mezi vybrané činnosti patří vedení provádění stavby, nikoli vedení její změny.",
+      "Ne, odborné vedení odstraňování stavby mezi vybrané činnosti nepatří."
     ]
   },
   {
@@ -1039,8 +1039,8 @@
     "option_method": "individuálně zkontrolované možnosti",
     "wrong": [
       "Ne",
-      "Ano, pouze u staveb vyžadujících povolení",
-      "Ano, ale jen na základě zvláštního rozhodnutí úřadu"
+      "Ne, součinnost s dotčenými orgány při zpracování dokumentace zajišťuje výhradně stavebník.",
+      "Ano, projektant však jedná jen s dotčenými orgány; součinnost se stavebním úřadem se nevyžaduje."
     ]
   },
   {
@@ -1129,8 +1129,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "pouze vlastníkovi sousedního pozemku",
-      "pouze autorovi projektové dokumentace",
-      "pouze dodavateli stavebních výrobků"
+      "pouze stavebníkovi, bez oznámení stavebnímu úřadu",
+      "pouze projektantovi, bez oznámení stavebnímu úřadu"
     ]
   },
   {
@@ -1831,7 +1831,7 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "kanalizační přípojka vždy ponechána bez uzávěru i ochrany proti zpětnému toku",
-      "pouze vodovodní přípojka vybavena vodoměrem",
+      "kanalizační přípojka vybavena jen revizní šachtou, bez ochrany proti zpětnému vzdutí",
       "vnitřní kanalizace vybavena jen odvětráním bez ochrany proti zpětnému vzdutí"
     ]
   },
@@ -1904,7 +1904,7 @@
     "wrong": [
       "nemusí zajišťovat potřebný přetlak u všech plynových spotřebičů",
       "smí být navrženy bez ohledu na požadovaný provozní tlak spotřebičů",
-      "musí zajišťovat pouze stejný tlak ve vodovodním potrubí"
+      "musí zajistit potřebný provozní přetlak jen pro spotřebič s nejvyšším příkonem"
     ]
   },
   {
@@ -2030,7 +2030,7 @@
     "wrong": [
       "ke dni podání žádosti o autorizaci",
       "ke dni úspěšného složení autorizační zkoušky",
-      "ke dni zápisu do stavebního deníku"
+      "až dnem vydání prvního autorizačního razítka"
     ]
   },
   {
@@ -2190,9 +2190,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "povinné absolvování jedné nové vysoké školy každý rok",
-      "pouze získání stavebního povolení pro každou vlastní zakázku",
-      "povinnost přenést odpovědnost za odbornou úroveň výhradně na klienta"
+      "pouze jednorázové prokázání znalostí při autorizační zkoušce; další vzdělávání není povinné",
+      "sledování změn právních předpisů, nikoli nových odborných poznatků v oboru",
+      "další odborné vzdělávání jen po výzvě Komory k přezkoušení"
     ]
   },
   {
@@ -2263,7 +2263,7 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "náleží všem stavebním úřadům",
-      "přísluší výhradně výrobcům kancelářských razítek",
+      "přísluší Ministerstvu pro místní rozvoj, které razítka vydává jednotlivým autorizovaným osobám",
       "může vykonávat libovolný zaměstnavatel autorizované osoby"
     ]
   },
@@ -2695,8 +2695,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "se vždy stává samostatnou věcí ve vlastnictví zhotovitele",
-      "se stává součástí sousedního pozemku, i když na něj nezasahuje",
-      "zůstává ve vlastnictví stavebního úřadu až do kolaudace"
+      "zůstává samostatnou věcí ve společném vlastnictví objednatele a zhotovitele",
+      "se stává součástí pozemku objednatele teprve po vydání kolaudačního rozhodnutí"
     ]
   },
   {
@@ -3109,8 +3109,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "stavba zůstává vždy samostatnou věcí stavebníka",
-      "stavba přechází do vlastnictví projektanta po kolaudaci",
-      "stavba se stává vlastnictvím stavebního úřadu až do zaplacení ceny díla"
+      "se stává samostatnou věcí ve spoluvlastnictví stavebníka a vlastníka pozemku",
+      "se stává součástí cizího pozemku až po vydání kolaudačního rozhodnutí"
     ]
   },
   {
@@ -3306,9 +3306,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "zakázka na dodávky za 4 mil. Kč a na stavební práce za 10 mil. Kč se vždy považuje za zakázku malého rozsahu",
-      "veřejná zakázka na stavební práce za 12 mil. Kč patří do malého rozsahu, zatímco dodávka za 1 mil. Kč nikoli",
-      "zakázka na dodávky za 3 mil. Kč ani zakázka na stavební práce za 9 mil. Kč do malého rozsahu nikdy nespadá"
+      "u dodávek a služeb nejvýše 4 mil. Kč a u stavebních prací nejvýše 9 mil. Kč",
+      "u dodávek a služeb nejvýše 3 mil. Kč a u stavebních prací nejvýše 10 mil. Kč",
+      "u dodávek a služeb méně než 3 mil. Kč a u stavebních prací méně než 9 mil. Kč; při dosažení hranice již jde o vyšší kategorii"
     ]
   },
   {
@@ -3577,8 +3577,8 @@
     "option_method": "individuálně zkontrolované možnosti",
     "wrong": [
       "uzavření úplatné smlouvy, kterou zadavatel zadá provedení stavebních prací dodavateli, přičemž protiplnění spočívá v právu na braní užitků vyplývajících z provozování provedené stavby, která je výsledkem poskytnutých stavebních prací, nebo v tomto právu společně s platbou, a to s podmínkou přenosu provozního rizika spojeného s braním užitků vyplývajících z provozování stavby na zadavatele",
-      "uzavření úplatné smlouvy, kterou zadavatel zadá provedení stavebních prací dodavateli, přičemž protiplnění spočívá v právu na braní užitků vyplývajících z provozování provedené stavby, která je výsledkem poskytnutých stavebních prací, nebo v tomto právu společně s platbou, a to s podmínkou přenosu provozního rizika spojeného s braním užitků vyplývajících z provozování stavby na projektanta",
-      "uzavření úplatné smlouvy, kterou dodavatel zadá provedení stavebních prací dodavateli, přičemž protiplnění spočívá v právu na braní užitků vyplývajících z provozování provedené stavby, která je výsledkem poskytnutých stavebních prací, nebo v tomto právu společně s platbou, a to s podmínkou přenosu provozního rizika spojeného s braním užitků vyplývajících z provozování stavby na dodavatele"
+      "zadavatel uzavře úplatnou smlouvu na stavební práce; dodavatel dostane pevnou cenu bez práva na užitky z provozování stavby",
+      "zadavatel přenechá dodavateli právo provozovat již existující stavbu, aniž by zadal provedení stavebních prací"
     ]
   },
   {
@@ -3667,8 +3667,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "pouze občanským průkazem podnikatele",
-      "výhradně výpisem z katastru nemovitostí",
-      "jen první vystavenou fakturou"
+      "výpisem z obchodního rejstříku i u podnikatele, který v něm není zapsán",
+      "potvrzením o registraci podnikatele k dani z příjmů"
     ]
   },
   {
@@ -3757,8 +3757,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "libovolnou osobu bez splnění podmínek odpovědného zástupce",
-      "pouze zaměstnance živnostenského úřadu",
-      "povinně jen účetní firmy bez ohledu na její odbornou způsobilost"
+      "osobu, která je členem statutárního orgánu, i když nesplňuje podmínky odpovědného zástupce",
+      "osobu splňující podmínky odpovědného zástupce, která však nesmí být členem statutárního orgánu"
     ]
   },
   {
@@ -3937,8 +3937,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "vždy jen obsahem vázané živnosti „Projektová činnost ve výstavbě“",
-      "výhradně obsahem řemeslné živnosti „Zednictví“",
-      "činností, kterou smějí vykonávat jen stavební úřady"
+      "obsahem vázané živnosti „Provádění staveb, jejich změn a odstraňování“",
+      "vybranou činností ve výstavbě, kterou smí vykonávat jen autorizovaná osoba"
     ]
   },
   {
@@ -4279,9 +4279,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "bez výjimky všechny záměry a činnosti každé domácnosti",
-      "pouze stavby bez ohledu na technologie a veřejné koncepce",
-      "výhradně výše správního poplatku při povolení stavby"
+      "všechny stavební záměry bez ohledu na jejich rozsah a možné vlivy na životní prostředí",
+      "pouze koncepce schvalované veřejnou správou; jednotlivé stavby a technologie se neposuzují",
+      "jen technologie jako samostatné projekty; stavební záměry a koncepce jsou vyloučeny"
     ]
   },
   {
@@ -4424,8 +4424,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "území stanovená pouze stavebním úřadem pro ochranu vodních zdrojů",
-      "výhradně rezervace pro chov domácí drůbeže",
-      "jakákoli území s jediným pozorováním běžného ptáka bez nařízení vlády"
+      "území určená krajským úřadem podle migračních tras ptáků bez nařízení vlády",
+      "území vyhlášená bez ohledu na stav a početnost populací chráněných druhů ptáků"
     ]
   },
   {
@@ -4640,8 +4640,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "neveřejná soukromá evidence jen jednoho podniku",
-      "pouze rejstřík stavebních povolení bez údajů o znečišťujících látkách",
-      "seznam národních parků spravovaný katastrálním úřadem"
+      "veřejná evidence jen komunálního odpadu bez údajů o únicích znečišťujících látek",
+      "veřejný informační systém o únicích a přenosech látek, jehož správcem je Česká inspekce životního prostředí"
     ]
   },
   {
@@ -4837,9 +4837,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "soukromý výrobce norem bez vztahu k ÚNMZ",
-      "orgán státního požárního dozoru vykonávající kolaudaci",
-      "příspěvková organizace podřízená katastrálnímu úřadu"
+      "samostatný národní normalizační orgán, který schvaluje ČSN bez ÚNMZ",
+      "organizační složka ÚNMZ, která sama nezajišťuje vydávání ani distribuci ČSN",
+      "příspěvková organizace přímo podřízená Ministerstvu průmyslu a obchodu mimo působnost ÚNMZ"
     ]
   },
   {
@@ -5431,9 +5431,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně katastrální úřad",
-      "pouze vlastník stavby jako konečný uživatel",
-      "jen jednotlivý výrobce kontrolující sám sebe bez dozoru státního orgánu"
+      "Úřad pro technickou normalizaci, metrologii a státní zkušebnictví",
+      "Česká agentura pro standardizaci",
+      "autorizovaná osoba posuzující shodu výrobku"
     ]
   },
   {
@@ -5450,8 +5450,8 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "nepřipojí k výrobku žádné označení shody ani v případech jeho povinnosti",
-      "připojí výhradně označení výsledku kolaudace místo značky shody CCZ",
-      "připojí českou značku shody až k pozemku, nikoli k výrobku"
+      "připojí výhradně označení CE, nikoli českou značku shody CCZ",
+      "značku shody CCZ uvede jen v technické dokumentaci výrobce, nikoli na výrobku"
     ]
   },
   {
@@ -5863,9 +5863,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně zkontrolované možnosti",
     "wrong": [
-      "2,1 m",
-      "3,1 m",
-      "0,5 m"
+      "0,8 m",
+      "0,9 m",
+      "1,0 m"
     ]
   },
   {
@@ -6061,9 +6061,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "katastrální úřad",
-      "výhradně každý provozovatel technického zařízení sám za sebe",
-      "pouze stavební úřad, který stavbu kolaudoval"
+      "Státní úřad inspekce práce",
+      "Ministerstvo práce a sociálních věcí",
+      "oblastní inspektorát práce"
     ]
   },
   {
@@ -6133,9 +6133,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "jakákoli osoba bez elektrotechnické kvalifikace",
-      "výhradně katastrální úřad",
-      "pouze revizní technik plynových zařízení bez elektrotechnické způsobilosti"
+      "elektrotechnik bez kvalifikace vedoucího elektrotechnika",
+      "revizní technik elektrických zařízení jen na základě oprávnění k revizím",
+      "osoba poučená pro práci na elektrických zařízeních"
     ]
   },
   {
@@ -6225,7 +6225,7 @@
     "wrong": [
       "výhradně celkovou podlahovou plochou bez rozlišení požárních úseků",
       "jen počtem podlaží bez stanovení stupňů požární bezpečnosti úseků",
-      "pouze barvou obvodového pláště bez ohledu na požární úseky"
+      "počtem a šířkou únikových východů bez stanovení stupně požární bezpečnosti požárních úseků"
     ]
   },
   {
@@ -6313,9 +6313,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně katastrální úřad",
-      "jen dodavatel nejlevnějšího zařízení bez ohledu na požárně bezpečnostní řešení",
-      "pouze vlastník sousední nemovitosti"
+      "projektant každého jednotlivého požárně bezpečnostního zařízení samostatně",
+      "dodavatel požárně bezpečnostních zařízení až při jejich montáži",
+      "investor stavby bez účasti zpracovatele požárně bezpečnostního řešení"
     ]
   },
   {
@@ -6511,8 +6511,8 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně vnitřní směrnice každého jednotlivého projektanta",
-      "pouze katastrální vyhláška bez pravidel požární bezpečnosti",
+      "vyhláška č. 246/2001 Sb., o požární prevenci, namísto předpisu o kategorizaci staveb",
+      "ČSN 73 0802 bez vazby na vyhlášku o kategorizaci staveb",
       "jen souhlas vlastníka stavby bez právního předpisu"
     ]
   },
@@ -6601,9 +6601,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "pouze budova s přiděleným číslem popisným",
+      "část zemského povrchu označená parcelním číslem i bez vymezení hranic podle katastrálního zákona",
       "vždy libovolná plocha bez vymezených hranic",
-      "jen podzemní prostor pod více sousedními parcelami"
+      "část zemského povrchu vymezená výhradně hranicemi vlastnického práva"
     ]
   },
   {
@@ -6853,8 +6853,8 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně nová parcela vymezená geometrickým plánem",
-      "jen technický výkres stavby bez informací o evidovaných nemovitostech",
+      "vklad, kterým se zapisuje vznik nebo změna věcného práva k nemovitosti",
+      "záznam, kterým se zapisují jen práva odvozená od vlastnického práva",
       "pouze bezvýznamná interní zpráva, která se do katastru nezapisuje"
     ]
   },
@@ -7107,7 +7107,7 @@
     "wrong": [
       "Ano, pitná voda se stává součástí stavby okamžikem úpravy ve vodárně",
       "Ano, stává se součástí vodovodu při vstupu do veřejné rozvodné sítě",
-      "Ano, je neoddělitelnou součástí potrubí vodovodu"
+      "Ano, pokud se nachází ve veřejné vodovodní síti před vodoměrem odběratele."
     ]
   },
   {
@@ -7161,7 +7161,7 @@
     "wrong": [
       "jen vodní nádrže a přehrady, nikoli ostatní stavby zřízené k účelům vodního zákona",
       "jakákoli stavba stojící blízko vody bez ohledu na svůj účel",
-      "každé podzemní vedení energií, které kříží vodní tok"
+      "každá stavba, která pro svůj provoz vyžaduje připojení na veřejný vodovod"
     ]
   },
   {
@@ -7339,9 +7339,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "upravují pouze barvu a označení potrubí bez limitů vypouštěných odpadních vod",
-      "schvalují vlastníci jednotlivých přípojek bez účasti vodoprávního orgánu",
-      "stanoví jen cenu za stočné, nikoli podmínky vypouštění do kanalizace"
+      "stanoví jen technické parametry kanalizačních stok, nikoli přípustné znečištění vypouštěných vod",
+      "schvaluje stavební úřad až při kolaudaci kanalizace bez vodoprávního orgánu",
+      "stanoví provozní podmínky stok, ale neurčují nejvyšší přípustnou míru znečištění vypouštěných odpadních vod"
     ]
   },
   {
@@ -7574,7 +7574,7 @@
     "option_method": "individuálně upravené možnosti",
     "wrong": [
       "každý zaměstnanec stavební firmy bez ustanovení Českým báňským úřadem",
-      "výhradně správce katastru nemovitostí",
+      "soudní znalec v oboru stavebnictví bez ustanovení Českým báňským úřadem",
       "pouze vlastník dotčeného pozemku bez ustanovení úřadem"
     ]
   },
@@ -7627,9 +7627,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výlučně rozpočet stavby bez geologického a inženýrskogeologického průzkumu",
-      "jen stavební deník a finanční plán bez analýzy rizik",
-      "výhradně plán dopravy materiálu; geologický průzkum se do projektu nezahrnuje"
+      "pouze geodetické zaměření trasy podzemního díla bez geologického a inženýrskogeologického průzkumu",
+      "geologický průzkum bez rizikové analýzy pro stavbu a okolní objekty v dosahu možného ovlivnění",
+      "výhradně hydrogeologické podklady bez vyhodnocení inženýrskogeologických poměrů"
     ]
   },
   {
@@ -7771,9 +7771,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výlučně určování ceny elektřiny pro koncové odběratele",
-      "pouze ochrana zařízení před konkurencí jiných výrobců",
-      "výhradně vymezení obce, do níž lze elektřinu prodávat"
+      "vymezit bezpečné odstupy při výstavbě vedení, bez požadavku na spolehlivý provoz zařízení",
+      "chránit pouze zařízení, nikoli život, zdraví a majetek osob v jeho okolí",
+      "vymezit plochu pro budoucí rozšíření elektrizační soustavy místo ochrany stávajícího provozu"
     ]
   },
   {
@@ -7951,9 +7951,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "pouze stanovení prodejní ceny plynu pro domácnosti",
-      "výlučně určování vlastnictví pozemků v okolí plynovodu",
-      "jen povinnost skladovat plyn pro domácnosti v nejbližší obci"
+      "stanovit bezpečnostní pásmo jen pro vysokotlaké plynovody, nikoli chránit provoz všech dotčených zařízení",
+      "chránit jen život a zdraví osob při havárii; bezpečný a spolehlivý provoz zařízení se neposuzuje",
+      "omezit výhradně přístup veřejnosti k zařízení, bez ohledu na spolehlivost provozu"
     ]
   },
   {
@@ -8023,9 +8023,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "místo, v němž přechází vlastnictví budovy mezi dodavatelem a odběratelem",
-      "pouze místo instalace vodoměru pro studenou vodu",
-      "místo, v němž se mění vlastnictví plynu bez dodávky tepelné energie"
+      "místo, kde tepelná energie přechází ze zdroje do rozvodné sítě, bez ohledu na odběratele",
+      "každé místo měření tepelné energie, i když zde nedochází k převodu vlastnictví na odběratele",
+      "místo, kde se převádí vlastnictví tepelného zařízení, nikoli dodané tepelné energie"
     ]
   },
   {
@@ -8257,9 +8257,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "pouze technické zařízení pro měření průtoku vody bez přenosu signálů",
-      "jen pasivní stavební konstrukce bez zařízení pro příjem nebo vysílání signálů",
-      "výhradně potrubí určené k přepravě plynu namísto elektromagnetických signálů"
+      "technické zařízení pouze pro ukládání zpráv bez vysílání, přenosu, směrování nebo příjmu signálů",
+      "výhradně koncový přístroj uživatele; zařízení pro směrování signálů do definice nepatří",
+      "technické zařízení pro zpracování obsahu zprávy, které vůbec neslouží k přenosu ani příjmu signálů"
     ]
   },
   {
@@ -8527,9 +8527,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně katastrální úřad",
-      "výhradně Státní energetická inspekce",
-      "výhradně Český báňský úřad"
+      "Ministerstvo průmyslu a obchodu",
+      "Digitální a informační agentura",
+      "Národní úřad pro kybernetickou a informační bezpečnost"
     ]
   },
   {
@@ -8599,9 +8599,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "jen uživatelský mobilní telefon bez stavby komunikačního vedení",
-      "výhradně potrubí pro zásobování budovy plynem bez komunikačního vedení",
-      "pouze dopravní značka bez veřejné komunikační sítě a souvisejících zařízení"
+      "pouze samotné komunikační kabely bez souvisejících komunikačních zařízení a přípojek",
+      "pouze komunikační zařízení v budově bez komunikačního vedení veřejné sítě",
+      "jakékoli vedení v neveřejné vnitropodnikové síti bez vazby na veřejnou komunikační síť"
     ]
   },
   {
@@ -8725,9 +8725,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně cenový ceník dodavatele tepla na jeden měsíc",
-      "pouze plán spotřeby energie v jedné budově bez cílů státu",
-      "jednorázový stavební rozpočet bez bezpečnosti dodávek a rozvojové koncepce"
+      "územní strategie nakládání s energií pro jediný kraj přijatá na období 25 let",
+      "strategie státu zaměřená výhradně na výrobu elektřiny bez bezpečnosti dodávek a sociálních dopadů",
+      "strategický dokument státu v oblasti energií přijímaný jen na období 5 let"
     ]
   },
   {
@@ -8923,9 +8923,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "automaticky absolvováním jakéhokoli krátkého školení bez udělení oprávnění ministerstvem",
-      "výhradně zápisem do katastru nemovitostí bez udělení oprávnění",
-      "pouhým nákupem měřicího přístroje bez udělení oprávnění ministerstvem"
+      "úspěšným složením odborné zkoušky bez udělení oprávnění Ministerstvem průmyslu a obchodu",
+      "udělením oprávnění Státní energetickou inspekcí namísto ministerstva",
+      "zápisem do seznamu specialistů bez předchozího udělení oprávnění ministerstvem"
     ]
   },
   {
@@ -8977,9 +8977,9 @@
     "option_status": "reviewed",
     "option_method": "individuálně upravené možnosti",
     "wrong": [
-      "výhradně katastrální úřad",
-      "výhradně Český báňský úřad",
-      "výhradně obecní stavební úřad"
+      "Státní energetická inspekce",
+      "Energetický regulační úřad",
+      "Ministerstvo pro místní rozvoj"
     ]
   },
   {

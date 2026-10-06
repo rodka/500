@@ -1,0 +1,2137 @@
+{
+  "status": "historical_mapping",
+  "description": "Pracovní rekonstrukce členění podle shodného znění otázky ve vydání V1.2 (1. 1. 2025). Aktuální členění pro rok 2026 ani výběr podle specializace uchazeče nejsou potvrzené. Nezařazené otázky jsou dostupné v procvičování, nikoli ve zkoušce nanečisto.",
+  "source": "https://www.ckait.cz/sites/default/files/2025-01/OTAZKY-ke-zkouskam_CKAIT_v-1.2_2025-9.1.pdf",
+  "questions": [
+    {
+      "id": "A1",
+      "part": "general",
+      "reference_id": "A1",
+      "reference_page": 6
+    },
+    {
+      "id": "A2",
+      "part": "general",
+      "reference_id": "A2",
+      "reference_page": 6
+    },
+    {
+      "id": "A3",
+      "part": "general",
+      "reference_id": "A3",
+      "reference_page": 6
+    },
+    {
+      "id": "A5",
+      "part": "general",
+      "reference_id": "A4",
+      "reference_page": 6
+    },
+    {
+      "id": "A6",
+      "part": "general",
+      "reference_id": "A5",
+      "reference_page": 6
+    },
+    {
+      "id": "A8",
+      "part": "general",
+      "reference_id": "A7",
+      "reference_page": 6
+    },
+    {
+      "id": "A11",
+      "part": "general",
+      "reference_id": "A8",
+      "reference_page": 6
+    },
+    {
+      "id": "A13",
+      "part": "general",
+      "reference_id": "A11",
+      "reference_page": 6
+    },
+    {
+      "id": "A14",
+      "part": "general",
+      "reference_id": "A13",
+      "reference_page": 6
+    },
+    {
+      "id": "A15",
+      "part": "general",
+      "reference_id": "A17",
+      "reference_page": 7
+    },
+    {
+      "id": "A16",
+      "part": "general",
+      "reference_id": "A18",
+      "reference_page": 7
+    },
+    {
+      "id": "A17",
+      "part": "general",
+      "reference_id": "A19",
+      "reference_page": 7
+    },
+    {
+      "id": "A19",
+      "part": "general",
+      "reference_id": "A22",
+      "reference_page": 7
+    },
+    {
+      "id": "A21",
+      "part": "general",
+      "reference_id": "A23",
+      "reference_page": 7
+    },
+    {
+      "id": "A25",
+      "part": "general",
+      "reference_id": "A26",
+      "reference_page": 7
+    },
+    {
+      "id": "A26",
+      "part": "general",
+      "reference_id": "A27",
+      "reference_page": 7
+    },
+    {
+      "id": "A28",
+      "part": "general",
+      "reference_id": "A29",
+      "reference_page": 8
+    },
+    {
+      "id": "A31",
+      "part": "general",
+      "reference_id": "A30",
+      "reference_page": 8
+    },
+    {
+      "id": "A32",
+      "part": "general",
+      "reference_id": "A31",
+      "reference_page": 8
+    },
+    {
+      "id": "A33",
+      "part": "general",
+      "reference_id": "A32",
+      "reference_page": 8
+    },
+    {
+      "id": "A34",
+      "part": "general",
+      "reference_id": "A33",
+      "reference_page": 8
+    },
+    {
+      "id": "A39",
+      "part": "general",
+      "reference_id": "A45",
+      "reference_page": 9
+    },
+    {
+      "id": "A40",
+      "part": "general",
+      "reference_id": "A46",
+      "reference_page": 9
+    },
+    {
+      "id": "A42",
+      "part": "general",
+      "reference_id": "A48",
+      "reference_page": 9
+    },
+    {
+      "id": "A46",
+      "part": "general",
+      "reference_id": "A53",
+      "reference_page": 9
+    },
+    {
+      "id": "A47",
+      "part": "general",
+      "reference_id": "A55",
+      "reference_page": 9
+    },
+    {
+      "id": "A48",
+      "part": "general",
+      "reference_id": "A56",
+      "reference_page": 10
+    },
+    {
+      "id": "A51",
+      "part": "general",
+      "reference_id": "A60",
+      "reference_page": 10
+    },
+    {
+      "id": "A52",
+      "part": "general",
+      "reference_id": "A61",
+      "reference_page": 10
+    },
+    {
+      "id": "A54",
+      "part": "general",
+      "reference_id": "A63",
+      "reference_page": 10
+    },
+    {
+      "id": "A55",
+      "part": "general",
+      "reference_id": "A64",
+      "reference_page": 10
+    },
+    {
+      "id": "A57",
+      "part": "general",
+      "reference_id": "A66",
+      "reference_page": 10
+    },
+    {
+      "id": "A58",
+      "part": "general",
+      "reference_id": "A67",
+      "reference_page": 10
+    },
+    {
+      "id": "A60",
+      "part": "general",
+      "reference_id": "A68",
+      "reference_page": 10
+    },
+    {
+      "id": "A63",
+      "part": "general",
+      "reference_id": "A70",
+      "reference_page": 11
+    },
+    {
+      "id": "A64",
+      "part": "general",
+      "reference_id": "A71",
+      "reference_page": 11
+    },
+    {
+      "id": "A66",
+      "part": "general",
+      "reference_id": "A74",
+      "reference_page": 11
+    },
+    {
+      "id": "A68",
+      "part": "general",
+      "reference_id": "A79",
+      "reference_page": 11
+    },
+    {
+      "id": "A69",
+      "part": "general",
+      "reference_id": "A80",
+      "reference_page": 11
+    },
+    {
+      "id": "A70",
+      "part": "general",
+      "reference_id": "A81",
+      "reference_page": 11
+    },
+    {
+      "id": "A79",
+      "part": "general",
+      "reference_id": "A84",
+      "reference_page": 12
+    },
+    {
+      "id": "A80",
+      "part": "general",
+      "reference_id": "A85",
+      "reference_page": 12
+    },
+    {
+      "id": "A81",
+      "part": "general",
+      "reference_id": "A86",
+      "reference_page": 12
+    },
+    {
+      "id": "A82",
+      "part": "general",
+      "reference_id": "A88",
+      "reference_page": 12
+    },
+    {
+      "id": "A83",
+      "part": "general",
+      "reference_id": "A89",
+      "reference_page": 12
+    },
+    {
+      "id": "A84",
+      "part": "general",
+      "reference_id": "A91",
+      "reference_page": 12
+    },
+    {
+      "id": "A86",
+      "part": "general",
+      "reference_id": "A93",
+      "reference_page": 12
+    },
+    {
+      "id": "A88",
+      "part": "general",
+      "reference_id": "A97",
+      "reference_page": 13
+    },
+    {
+      "id": "A89",
+      "part": "general",
+      "reference_id": "A98",
+      "reference_page": 13
+    },
+    {
+      "id": "A90",
+      "part": "general",
+      "reference_id": "A99",
+      "reference_page": 13
+    },
+    {
+      "id": "B6",
+      "part": "general",
+      "reference_id": "B7",
+      "reference_page": 15
+    },
+    {
+      "id": "B12",
+      "part": "general",
+      "reference_id": "B11",
+      "reference_page": 15
+    },
+    {
+      "id": "B26",
+      "part": "general",
+      "reference_id": "B25",
+      "reference_page": 17
+    },
+    {
+      "id": "B28",
+      "part": "general",
+      "reference_id": "B27",
+      "reference_page": 17
+    },
+    {
+      "id": "B43",
+      "part": "general",
+      "reference_id": "B40",
+      "reference_page": 18
+    },
+    {
+      "id": "B44",
+      "part": "general",
+      "reference_id": "B41",
+      "reference_page": 18
+    },
+    {
+      "id": "B47",
+      "part": "general",
+      "reference_id": "B43",
+      "reference_page": 18
+    },
+    {
+      "id": "C1",
+      "part": "general",
+      "reference_id": "C1",
+      "reference_page": 22
+    },
+    {
+      "id": "C2",
+      "part": "general",
+      "reference_id": "C2",
+      "reference_page": 22
+    },
+    {
+      "id": "C3",
+      "part": "general",
+      "reference_id": "C3",
+      "reference_page": 22
+    },
+    {
+      "id": "C4",
+      "part": "general",
+      "reference_id": "C4",
+      "reference_page": 22
+    },
+    {
+      "id": "C5",
+      "part": "general",
+      "reference_id": "C6",
+      "reference_page": 22
+    },
+    {
+      "id": "C6",
+      "part": "general",
+      "reference_id": "C7",
+      "reference_page": 22
+    },
+    {
+      "id": "C7",
+      "part": "general",
+      "reference_id": "C8",
+      "reference_page": 22
+    },
+    {
+      "id": "C8",
+      "part": "general",
+      "reference_id": "C9",
+      "reference_page": 22
+    },
+    {
+      "id": "C9",
+      "part": "general",
+      "reference_id": "C10",
+      "reference_page": 22
+    },
+    {
+      "id": "C10",
+      "part": "general",
+      "reference_id": "C11",
+      "reference_page": 22
+    },
+    {
+      "id": "C11",
+      "part": "general",
+      "reference_id": "C12",
+      "reference_page": 23
+    },
+    {
+      "id": "C12",
+      "part": "general",
+      "reference_id": "C13",
+      "reference_page": 23
+    },
+    {
+      "id": "C13",
+      "part": "general",
+      "reference_id": "C14",
+      "reference_page": 23
+    },
+    {
+      "id": "C14",
+      "part": "general",
+      "reference_id": "C15",
+      "reference_page": 23
+    },
+    {
+      "id": "C15",
+      "part": "general",
+      "reference_id": "C16",
+      "reference_page": 23
+    },
+    {
+      "id": "C16",
+      "part": "general",
+      "reference_id": "C17",
+      "reference_page": 23
+    },
+    {
+      "id": "C17",
+      "part": "general",
+      "reference_id": "C18",
+      "reference_page": 23
+    },
+    {
+      "id": "C19",
+      "part": "general",
+      "reference_id": "C19",
+      "reference_page": 23
+    },
+    {
+      "id": "C21",
+      "part": "general",
+      "reference_id": "C22",
+      "reference_page": 23
+    },
+    {
+      "id": "C22",
+      "part": "general",
+      "reference_id": "C23",
+      "reference_page": 23
+    },
+    {
+      "id": "C23",
+      "part": "general",
+      "reference_id": "C24",
+      "reference_page": 24
+    },
+    {
+      "id": "C24",
+      "part": "general",
+      "reference_id": "C25",
+      "reference_page": 24
+    },
+    {
+      "id": "C25",
+      "part": "general",
+      "reference_id": "C26",
+      "reference_page": 24
+    },
+    {
+      "id": "C26",
+      "part": "general",
+      "reference_id": "C27",
+      "reference_page": 24
+    },
+    {
+      "id": "C27",
+      "part": "general",
+      "reference_id": "C28",
+      "reference_page": 24
+    },
+    {
+      "id": "C28",
+      "part": "general",
+      "reference_id": "C30",
+      "reference_page": 24
+    },
+    {
+      "id": "C29",
+      "part": "general",
+      "reference_id": "C31",
+      "reference_page": 24
+    },
+    {
+      "id": "C30",
+      "part": "general",
+      "reference_id": "C32",
+      "reference_page": 24
+    },
+    {
+      "id": "D1",
+      "part": "general",
+      "reference_id": "D1",
+      "reference_page": 25
+    },
+    {
+      "id": "D2",
+      "part": "general",
+      "reference_id": "D4",
+      "reference_page": 25
+    },
+    {
+      "id": "D3",
+      "part": "general",
+      "reference_id": "D5",
+      "reference_page": 25
+    },
+    {
+      "id": "D6",
+      "part": "general",
+      "reference_id": "D9",
+      "reference_page": 25
+    },
+    {
+      "id": "D7",
+      "part": "general",
+      "reference_id": "D10",
+      "reference_page": 25
+    },
+    {
+      "id": "D10",
+      "part": "general",
+      "reference_id": "D13",
+      "reference_page": 26
+    },
+    {
+      "id": "D12",
+      "part": "general",
+      "reference_id": "D15",
+      "reference_page": 26
+    },
+    {
+      "id": "D13",
+      "part": "general",
+      "reference_id": "D18",
+      "reference_page": 26
+    },
+    {
+      "id": "D18",
+      "part": "general",
+      "reference_id": "D22",
+      "reference_page": 26
+    },
+    {
+      "id": "D19",
+      "part": "general",
+      "reference_id": "D23",
+      "reference_page": 26
+    },
+    {
+      "id": "D20",
+      "part": "general",
+      "reference_id": "D24",
+      "reference_page": 27
+    },
+    {
+      "id": "D24",
+      "part": "general",
+      "reference_id": "D30",
+      "reference_page": 27
+    },
+    {
+      "id": "D30",
+      "part": "general",
+      "reference_id": "D32",
+      "reference_page": 27
+    },
+    {
+      "id": "D31",
+      "part": "general",
+      "reference_id": "D34",
+      "reference_page": 27
+    },
+    {
+      "id": "D32",
+      "part": "general",
+      "reference_id": "D35",
+      "reference_page": 27
+    },
+    {
+      "id": "D33",
+      "part": "general",
+      "reference_id": "D36",
+      "reference_page": 28
+    },
+    {
+      "id": "D39",
+      "part": "general",
+      "reference_id": "D41",
+      "reference_page": 28
+    },
+    {
+      "id": "D40",
+      "part": "general",
+      "reference_id": "D42",
+      "reference_page": 28
+    },
+    {
+      "id": "D41",
+      "part": "general",
+      "reference_id": "D43",
+      "reference_page": 28
+    },
+    {
+      "id": "E1",
+      "part": "general",
+      "reference_id": "E1",
+      "reference_page": 29
+    },
+    {
+      "id": "E2",
+      "part": "general",
+      "reference_id": "E2",
+      "reference_page": 29
+    },
+    {
+      "id": "E3",
+      "part": "general",
+      "reference_id": "E3",
+      "reference_page": 29
+    },
+    {
+      "id": "E4",
+      "part": "general",
+      "reference_id": "E4",
+      "reference_page": 29
+    },
+    {
+      "id": "E5",
+      "part": "general",
+      "reference_id": "E5",
+      "reference_page": 29
+    },
+    {
+      "id": "E6",
+      "part": "general",
+      "reference_id": "E6",
+      "reference_page": 29
+    },
+    {
+      "id": "E7",
+      "part": "general",
+      "reference_id": "E7",
+      "reference_page": 29
+    },
+    {
+      "id": "E8",
+      "part": "general",
+      "reference_id": "E8",
+      "reference_page": 29
+    },
+    {
+      "id": "E9",
+      "part": "general",
+      "reference_id": "E10",
+      "reference_page": 30
+    },
+    {
+      "id": "E10",
+      "part": "general",
+      "reference_id": "E11",
+      "reference_page": 30
+    },
+    {
+      "id": "E11",
+      "part": "general",
+      "reference_id": "E12",
+      "reference_page": 30
+    },
+    {
+      "id": "E12",
+      "part": "general",
+      "reference_id": "E13",
+      "reference_page": 30
+    },
+    {
+      "id": "E13",
+      "part": "general",
+      "reference_id": "E14",
+      "reference_page": 30
+    },
+    {
+      "id": "E14",
+      "part": "general",
+      "reference_id": "E15",
+      "reference_page": 30
+    },
+    {
+      "id": "E15",
+      "part": "general",
+      "reference_id": "E16",
+      "reference_page": 30
+    },
+    {
+      "id": "E16",
+      "part": "general",
+      "reference_id": "E17",
+      "reference_page": 30
+    },
+    {
+      "id": "E17",
+      "part": "general",
+      "reference_id": "E18",
+      "reference_page": 30
+    },
+    {
+      "id": "E18",
+      "part": "general",
+      "reference_id": "E19",
+      "reference_page": 31
+    },
+    {
+      "id": "F1",
+      "part": "general",
+      "reference_id": "F1",
+      "reference_page": 32
+    },
+    {
+      "id": "F2",
+      "part": "general",
+      "reference_id": "F3",
+      "reference_page": 32
+    },
+    {
+      "id": "F3",
+      "part": "general",
+      "reference_id": "F5",
+      "reference_page": 32
+    },
+    {
+      "id": "F4",
+      "part": "general",
+      "reference_id": "F7",
+      "reference_page": 32
+    },
+    {
+      "id": "F5",
+      "part": "general",
+      "reference_id": "F8",
+      "reference_page": 32
+    },
+    {
+      "id": "F6",
+      "part": "general",
+      "reference_id": "F9",
+      "reference_page": 32
+    },
+    {
+      "id": "F7",
+      "part": "general",
+      "reference_id": "F10",
+      "reference_page": 32
+    },
+    {
+      "id": "F8",
+      "part": "general",
+      "reference_id": "F11",
+      "reference_page": 32
+    },
+    {
+      "id": "F9",
+      "part": "general",
+      "reference_id": "F12",
+      "reference_page": 33
+    },
+    {
+      "id": "F10",
+      "part": "general",
+      "reference_id": "F13",
+      "reference_page": 33
+    },
+    {
+      "id": "F11",
+      "part": "general",
+      "reference_id": "F14",
+      "reference_page": 33
+    },
+    {
+      "id": "F12",
+      "part": "general",
+      "reference_id": "F15",
+      "reference_page": 33
+    },
+    {
+      "id": "F13",
+      "part": "general",
+      "reference_id": "F23",
+      "reference_page": 33
+    },
+    {
+      "id": "F14",
+      "part": "general",
+      "reference_id": "F24",
+      "reference_page": 33
+    },
+    {
+      "id": "F15",
+      "part": "general",
+      "reference_id": "F27",
+      "reference_page": 34
+    },
+    {
+      "id": "F16",
+      "part": "general",
+      "reference_id": "F28",
+      "reference_page": 34
+    },
+    {
+      "id": "F17",
+      "part": "general",
+      "reference_id": "F35",
+      "reference_page": 34
+    },
+    {
+      "id": "F18",
+      "part": "general",
+      "reference_id": "F38",
+      "reference_page": 35
+    },
+    {
+      "id": "F19",
+      "part": "general",
+      "reference_id": "F39",
+      "reference_page": 35
+    },
+    {
+      "id": "F20",
+      "part": "general",
+      "reference_id": "F40",
+      "reference_page": 35
+    },
+    {
+      "id": "G1",
+      "part": "general",
+      "reference_id": "G1",
+      "reference_page": 36
+    },
+    {
+      "id": "G2",
+      "part": "general",
+      "reference_id": "G2",
+      "reference_page": 36
+    },
+    {
+      "id": "G3",
+      "part": "general",
+      "reference_id": "G3",
+      "reference_page": 36
+    },
+    {
+      "id": "G4",
+      "part": "general",
+      "reference_id": "G4",
+      "reference_page": 36
+    },
+    {
+      "id": "G5",
+      "part": "general",
+      "reference_id": "G5",
+      "reference_page": 36
+    },
+    {
+      "id": "G6",
+      "part": "general",
+      "reference_id": "G6",
+      "reference_page": 36
+    },
+    {
+      "id": "G7",
+      "part": "general",
+      "reference_id": "G7",
+      "reference_page": 36
+    },
+    {
+      "id": "G8",
+      "part": "general",
+      "reference_id": "G8",
+      "reference_page": 36
+    },
+    {
+      "id": "G9",
+      "part": "general",
+      "reference_id": "G9",
+      "reference_page": 37
+    },
+    {
+      "id": "G10",
+      "part": "general",
+      "reference_id": "G10",
+      "reference_page": 37
+    },
+    {
+      "id": "G11",
+      "part": "general",
+      "reference_id": "G11",
+      "reference_page": 37
+    },
+    {
+      "id": "G12",
+      "part": "general",
+      "reference_id": "G12",
+      "reference_page": 37
+    },
+    {
+      "id": "G13",
+      "part": "general",
+      "reference_id": "G13",
+      "reference_page": 37
+    },
+    {
+      "id": "G14",
+      "part": "general",
+      "reference_id": "G14",
+      "reference_page": 37
+    },
+    {
+      "id": "G15",
+      "part": "general",
+      "reference_id": "G15",
+      "reference_page": 37
+    },
+    {
+      "id": "G16",
+      "part": "general",
+      "reference_id": "G16",
+      "reference_page": 37
+    },
+    {
+      "id": "G17",
+      "part": "general",
+      "reference_id": "G17",
+      "reference_page": 37
+    },
+    {
+      "id": "G18",
+      "part": "general",
+      "reference_id": "G18",
+      "reference_page": 37
+    },
+    {
+      "id": "G19",
+      "part": "general",
+      "reference_id": "G19",
+      "reference_page": 37
+    },
+    {
+      "id": "G20",
+      "part": "general",
+      "reference_id": "G20",
+      "reference_page": 37
+    },
+    {
+      "id": "G21",
+      "part": "general",
+      "reference_id": "G21",
+      "reference_page": 37
+    },
+    {
+      "id": "G22",
+      "part": "general",
+      "reference_id": "G22",
+      "reference_page": 37
+    },
+    {
+      "id": "G23",
+      "part": "general",
+      "reference_id": "G23",
+      "reference_page": 38
+    },
+    {
+      "id": "G24",
+      "part": "general",
+      "reference_id": "G24",
+      "reference_page": 38
+    },
+    {
+      "id": "G25",
+      "part": "general",
+      "reference_id": "G25",
+      "reference_page": 38
+    },
+    {
+      "id": "G26",
+      "part": "general",
+      "reference_id": "G26",
+      "reference_page": 38
+    },
+    {
+      "id": "G27",
+      "part": "general",
+      "reference_id": "G27",
+      "reference_page": 38
+    },
+    {
+      "id": "G28",
+      "part": "general",
+      "reference_id": "G28",
+      "reference_page": 38
+    },
+    {
+      "id": "G29",
+      "part": "general",
+      "reference_id": "G29",
+      "reference_page": 38
+    },
+    {
+      "id": "G30",
+      "part": "general",
+      "reference_id": "G30",
+      "reference_page": 38
+    },
+    {
+      "id": "G31",
+      "part": "general",
+      "reference_id": "G31",
+      "reference_page": 38
+    },
+    {
+      "id": "G33",
+      "part": "general",
+      "reference_id": "G33",
+      "reference_page": 38
+    },
+    {
+      "id": "G36",
+      "part": "general",
+      "reference_id": "G36",
+      "reference_page": 39
+    },
+    {
+      "id": "G37",
+      "part": "general",
+      "reference_id": "G37",
+      "reference_page": 39
+    },
+    {
+      "id": "G39",
+      "part": "general",
+      "reference_id": "G39",
+      "reference_page": 39
+    },
+    {
+      "id": "H1",
+      "part": "general",
+      "reference_id": "H1",
+      "reference_page": 40
+    },
+    {
+      "id": "H4",
+      "part": "general",
+      "reference_id": "H4",
+      "reference_page": 40
+    },
+    {
+      "id": "H5",
+      "part": "general",
+      "reference_id": "H5",
+      "reference_page": 40
+    },
+    {
+      "id": "H6",
+      "part": "general",
+      "reference_id": "H6",
+      "reference_page": 40
+    },
+    {
+      "id": "H7",
+      "part": "general",
+      "reference_id": "H7",
+      "reference_page": 40
+    },
+    {
+      "id": "H8",
+      "part": "general",
+      "reference_id": "H8",
+      "reference_page": 40
+    },
+    {
+      "id": "H9",
+      "part": "general",
+      "reference_id": "H9",
+      "reference_page": 40
+    },
+    {
+      "id": "H10",
+      "part": "general",
+      "reference_id": "H10",
+      "reference_page": 40
+    },
+    {
+      "id": "H11",
+      "part": "general",
+      "reference_id": "H11",
+      "reference_page": 41
+    },
+    {
+      "id": "H12",
+      "part": "general",
+      "reference_id": "H12",
+      "reference_page": 41
+    },
+    {
+      "id": "H13",
+      "part": "general",
+      "reference_id": "H13",
+      "reference_page": 41
+    },
+    {
+      "id": "H14",
+      "part": "general",
+      "reference_id": "H14",
+      "reference_page": 41
+    },
+    {
+      "id": "H15",
+      "part": "general",
+      "reference_id": "H15",
+      "reference_page": 41
+    },
+    {
+      "id": "H16",
+      "part": "general",
+      "reference_id": "H16",
+      "reference_page": 41
+    },
+    {
+      "id": "H17",
+      "part": "general",
+      "reference_id": "H17",
+      "reference_page": 41
+    },
+    {
+      "id": "H18",
+      "part": "general",
+      "reference_id": "H18",
+      "reference_page": 41
+    },
+    {
+      "id": "H19",
+      "part": "general",
+      "reference_id": "H19",
+      "reference_page": 41
+    },
+    {
+      "id": "H20",
+      "part": "general",
+      "reference_id": "H20",
+      "reference_page": 41
+    },
+    {
+      "id": "H21",
+      "part": "general",
+      "reference_id": "H21",
+      "reference_page": 42
+    },
+    {
+      "id": "H22",
+      "part": "general",
+      "reference_id": "H22",
+      "reference_page": 42
+    },
+    {
+      "id": "H23",
+      "part": "general",
+      "reference_id": "H23",
+      "reference_page": 42
+    },
+    {
+      "id": "H24",
+      "part": "general",
+      "reference_id": "H24",
+      "reference_page": 42
+    },
+    {
+      "id": "H25",
+      "part": "general",
+      "reference_id": "H25",
+      "reference_page": 42
+    },
+    {
+      "id": "H26",
+      "part": "general",
+      "reference_id": "H26",
+      "reference_page": 42
+    },
+    {
+      "id": "H27",
+      "part": "general",
+      "reference_id": "H27",
+      "reference_page": 42
+    },
+    {
+      "id": "H28",
+      "part": "general",
+      "reference_id": "H28",
+      "reference_page": 42
+    },
+    {
+      "id": "H29",
+      "part": "general",
+      "reference_id": "H29",
+      "reference_page": 42
+    },
+    {
+      "id": "H30",
+      "part": "general",
+      "reference_id": "H30",
+      "reference_page": 42
+    },
+    {
+      "id": "H31",
+      "part": "general",
+      "reference_id": "H31",
+      "reference_page": 42
+    },
+    {
+      "id": "H32",
+      "part": "general",
+      "reference_id": "H32",
+      "reference_page": 42
+    },
+    {
+      "id": "H33",
+      "part": "general",
+      "reference_id": "H33",
+      "reference_page": 43
+    },
+    {
+      "id": "H34",
+      "part": "general",
+      "reference_id": "H34",
+      "reference_page": 43
+    },
+    {
+      "id": "H35",
+      "part": "general",
+      "reference_id": "H35",
+      "reference_page": 43
+    },
+    {
+      "id": "H36",
+      "part": "general",
+      "reference_id": "H36",
+      "reference_page": 43
+    },
+    {
+      "id": "H37",
+      "part": "general",
+      "reference_id": "H37",
+      "reference_page": 43
+    },
+    {
+      "id": "H38",
+      "part": "general",
+      "reference_id": "H38",
+      "reference_page": 43
+    },
+    {
+      "id": "H39",
+      "part": "general",
+      "reference_id": "H39",
+      "reference_page": 43
+    },
+    {
+      "id": "H40",
+      "part": "general",
+      "reference_id": "H40",
+      "reference_page": 43
+    },
+    {
+      "id": "H41",
+      "part": "general",
+      "reference_id": "H41",
+      "reference_page": 43
+    },
+    {
+      "id": "H42",
+      "part": "general",
+      "reference_id": "H42",
+      "reference_page": 43
+    },
+    {
+      "id": "H43",
+      "part": "general",
+      "reference_id": "H43",
+      "reference_page": 43
+    },
+    {
+      "id": "I2",
+      "part": "general",
+      "reference_id": "I2",
+      "reference_page": 44
+    },
+    {
+      "id": "I5",
+      "part": "general",
+      "reference_id": "I5",
+      "reference_page": 44
+    },
+    {
+      "id": "I6",
+      "part": "general",
+      "reference_id": "I6",
+      "reference_page": 45
+    },
+    {
+      "id": "I7",
+      "part": "general",
+      "reference_id": "I7",
+      "reference_page": 45
+    },
+    {
+      "id": "I8",
+      "part": "general",
+      "reference_id": "I8",
+      "reference_page": 45
+    },
+    {
+      "id": "I9",
+      "part": "general",
+      "reference_id": "I9",
+      "reference_page": 45
+    },
+    {
+      "id": "I10",
+      "part": "general",
+      "reference_id": "I10",
+      "reference_page": 45
+    },
+    {
+      "id": "I11",
+      "part": "general",
+      "reference_id": "I11",
+      "reference_page": 45
+    },
+    {
+      "id": "I12",
+      "part": "general",
+      "reference_id": "I12",
+      "reference_page": 45
+    },
+    {
+      "id": "I13",
+      "part": "general",
+      "reference_id": "I13",
+      "reference_page": 45
+    },
+    {
+      "id": "I14",
+      "part": "general",
+      "reference_id": "I14",
+      "reference_page": 45
+    },
+    {
+      "id": "I15",
+      "part": "general",
+      "reference_id": "I15",
+      "reference_page": 45
+    },
+    {
+      "id": "I16",
+      "part": "general",
+      "reference_id": "I16",
+      "reference_page": 45
+    },
+    {
+      "id": "I17",
+      "part": "general",
+      "reference_id": "I17",
+      "reference_page": 45
+    },
+    {
+      "id": "I18",
+      "part": "general",
+      "reference_id": "I18",
+      "reference_page": 46
+    },
+    {
+      "id": "I19",
+      "part": "general",
+      "reference_id": "I19",
+      "reference_page": 46
+    },
+    {
+      "id": "I20",
+      "part": "general",
+      "reference_id": "I20",
+      "reference_page": 46
+    },
+    {
+      "id": "I21",
+      "part": "general",
+      "reference_id": "I21",
+      "reference_page": 46
+    },
+    {
+      "id": "I22",
+      "part": "general",
+      "reference_id": "I22",
+      "reference_page": 46
+    },
+    {
+      "id": "I23",
+      "part": "general",
+      "reference_id": "I23",
+      "reference_page": 46
+    },
+    {
+      "id": "I24",
+      "part": "general",
+      "reference_id": "I24",
+      "reference_page": 46
+    },
+    {
+      "id": "I26",
+      "part": "general",
+      "reference_id": "I26",
+      "reference_page": 46
+    },
+    {
+      "id": "I27",
+      "part": "general",
+      "reference_id": "I27",
+      "reference_page": 46
+    },
+    {
+      "id": "I28",
+      "part": "general",
+      "reference_id": "I28",
+      "reference_page": 46
+    },
+    {
+      "id": "I29",
+      "part": "general",
+      "reference_id": "I29",
+      "reference_page": 47
+    },
+    {
+      "id": "I30",
+      "part": "general",
+      "reference_id": "I30",
+      "reference_page": 47
+    },
+    {
+      "id": "I31",
+      "part": "general",
+      "reference_id": "I31",
+      "reference_page": 47
+    },
+    {
+      "id": "I32",
+      "part": "general",
+      "reference_id": "I32",
+      "reference_page": 47
+    },
+    {
+      "id": "I33",
+      "part": "general",
+      "reference_id": "I33",
+      "reference_page": 47
+    },
+    {
+      "id": "I34",
+      "part": "general",
+      "reference_id": "I34",
+      "reference_page": 47
+    },
+    {
+      "id": "I35",
+      "part": "general",
+      "reference_id": "I35",
+      "reference_page": 47
+    },
+    {
+      "id": "I36",
+      "part": "general",
+      "reference_id": "I36",
+      "reference_page": 47
+    },
+    {
+      "id": "I37",
+      "part": "general",
+      "reference_id": "I37",
+      "reference_page": 47
+    },
+    {
+      "id": "I38",
+      "part": "general",
+      "reference_id": "I38",
+      "reference_page": 47
+    },
+    {
+      "id": "I39",
+      "part": "general",
+      "reference_id": "I39",
+      "reference_page": 47
+    },
+    {
+      "id": "I40",
+      "part": "general",
+      "reference_id": "I40",
+      "reference_page": 48
+    },
+    {
+      "id": "I41",
+      "part": "general",
+      "reference_id": "I41",
+      "reference_page": 48
+    },
+    {
+      "id": "J3",
+      "part": "general",
+      "reference_id": "J3",
+      "reference_page": 49
+    },
+    {
+      "id": "J7",
+      "part": "general",
+      "reference_id": "J7",
+      "reference_page": 49
+    },
+    {
+      "id": "J17",
+      "part": "general",
+      "reference_id": "J17",
+      "reference_page": 50
+    },
+    {
+      "id": "J18",
+      "part": "general",
+      "reference_id": "J18",
+      "reference_page": 51
+    },
+    {
+      "id": "J24",
+      "part": "general",
+      "reference_id": "J24",
+      "reference_page": 51
+    },
+    {
+      "id": "J26",
+      "part": "general",
+      "reference_id": "J26",
+      "reference_page": 51
+    },
+    {
+      "id": "J28",
+      "part": "general",
+      "reference_id": "J28",
+      "reference_page": 52
+    },
+    {
+      "id": "J34",
+      "part": "general",
+      "reference_id": "J34",
+      "reference_page": 52
+    },
+    {
+      "id": "J36",
+      "part": "general",
+      "reference_id": "J36",
+      "reference_page": 52
+    },
+    {
+      "id": "J40",
+      "part": "general",
+      "reference_id": "J40",
+      "reference_page": 53
+    },
+    {
+      "id": "J41",
+      "part": "general",
+      "reference_id": "J41",
+      "reference_page": 53
+    },
+    {
+      "id": "J42",
+      "part": "general",
+      "reference_id": "J42",
+      "reference_page": 53
+    },
+    {
+      "id": "J43",
+      "part": "general",
+      "reference_id": "J43",
+      "reference_page": 53
+    },
+    {
+      "id": "J44",
+      "part": "general",
+      "reference_id": "J44",
+      "reference_page": 53
+    },
+    {
+      "id": "J45",
+      "part": "general",
+      "reference_id": "J45",
+      "reference_page": 53
+    },
+    {
+      "id": "J46",
+      "part": "general",
+      "reference_id": "J46",
+      "reference_page": 53
+    },
+    {
+      "id": "J47",
+      "part": "general",
+      "reference_id": "J47",
+      "reference_page": 53
+    },
+    {
+      "id": "J48",
+      "part": "general",
+      "reference_id": "J48",
+      "reference_page": 54
+    },
+    {
+      "id": "J49",
+      "part": "general",
+      "reference_id": "J49",
+      "reference_page": 54
+    },
+    {
+      "id": "J50",
+      "part": "general",
+      "reference_id": "J50",
+      "reference_page": 54
+    },
+    {
+      "id": "K1",
+      "part": "general",
+      "reference_id": "K2",
+      "reference_page": 55
+    },
+    {
+      "id": "K2",
+      "part": "general",
+      "reference_id": "K3",
+      "reference_page": 55
+    },
+    {
+      "id": "K3",
+      "part": "general",
+      "reference_id": "K4",
+      "reference_page": 55
+    },
+    {
+      "id": "K4",
+      "part": "general",
+      "reference_id": "K5",
+      "reference_page": 55
+    },
+    {
+      "id": "K5",
+      "part": "general",
+      "reference_id": "K7",
+      "reference_page": 55
+    },
+    {
+      "id": "K6",
+      "part": "general",
+      "reference_id": "K8",
+      "reference_page": 56
+    },
+    {
+      "id": "K7",
+      "part": "general",
+      "reference_id": "K12",
+      "reference_page": 56
+    },
+    {
+      "id": "K8",
+      "part": "general",
+      "reference_id": "K13",
+      "reference_page": 56
+    },
+    {
+      "id": "K9",
+      "part": "general",
+      "reference_id": "K18",
+      "reference_page": 56
+    },
+    {
+      "id": "K10",
+      "part": "general",
+      "reference_id": "K20",
+      "reference_page": 56
+    },
+    {
+      "id": "K11",
+      "part": "general",
+      "reference_id": "K21",
+      "reference_page": 56
+    },
+    {
+      "id": "K12",
+      "part": "general",
+      "reference_id": "K26",
+      "reference_page": 57
+    },
+    {
+      "id": "K13",
+      "part": "general",
+      "reference_id": "K27",
+      "reference_page": 57
+    },
+    {
+      "id": "K14",
+      "part": "general",
+      "reference_id": "K29",
+      "reference_page": 57
+    },
+    {
+      "id": "K15",
+      "part": "general",
+      "reference_id": "K32",
+      "reference_page": 57
+    },
+    {
+      "id": "K16",
+      "part": "general",
+      "reference_id": "K36",
+      "reference_page": 58
+    },
+    {
+      "id": "K17",
+      "part": "general",
+      "reference_id": "K37",
+      "reference_page": 58
+    },
+    {
+      "id": "K18",
+      "part": "general",
+      "reference_id": "K38",
+      "reference_page": 58
+    },
+    {
+      "id": "K19",
+      "part": "general",
+      "reference_id": "K39",
+      "reference_page": 58
+    },
+    {
+      "id": "K20",
+      "part": "general",
+      "reference_id": "K40",
+      "reference_page": 58
+    },
+    {
+      "id": "K21",
+      "part": "general",
+      "reference_id": "K41",
+      "reference_page": 58
+    },
+    {
+      "id": "K22",
+      "part": "general",
+      "reference_id": "K44",
+      "reference_page": 58
+    },
+    {
+      "id": "K23",
+      "part": "general",
+      "reference_id": "K45",
+      "reference_page": 58
+    },
+    {
+      "id": "K24",
+      "part": "general",
+      "reference_id": "K46",
+      "reference_page": 58
+    },
+    {
+      "id": "K25",
+      "part": "general",
+      "reference_id": "K47",
+      "reference_page": 58
+    },
+    {
+      "id": "K26",
+      "part": "general",
+      "reference_id": "K48",
+      "reference_page": 59
+    },
+    {
+      "id": "K27",
+      "part": "general",
+      "reference_id": "K49",
+      "reference_page": 59
+    },
+    {
+      "id": "M1",
+      "part": "specialist",
+      "reference_id": "M1",
+      "reference_page": 65
+    },
+    {
+      "id": "M3",
+      "part": "specialist",
+      "reference_id": "M3",
+      "reference_page": 65
+    },
+    {
+      "id": "M4",
+      "part": "specialist",
+      "reference_id": "M4",
+      "reference_page": 65
+    },
+    {
+      "id": "M7",
+      "part": "specialist",
+      "reference_id": "M7",
+      "reference_page": 65
+    },
+    {
+      "id": "M8",
+      "part": "specialist",
+      "reference_id": "M8",
+      "reference_page": 65
+    },
+    {
+      "id": "M9",
+      "part": "specialist",
+      "reference_id": "M9",
+      "reference_page": 65
+    },
+    {
+      "id": "M10",
+      "part": "specialist",
+      "reference_id": "M10",
+      "reference_page": 65
+    },
+    {
+      "id": "M11",
+      "part": "specialist",
+      "reference_id": "M11",
+      "reference_page": 65
+    },
+    {
+      "id": "M12",
+      "part": "specialist",
+      "reference_id": "M12",
+      "reference_page": 65
+    },
+    {
+      "id": "M18",
+      "part": "specialist",
+      "reference_id": "M18",
+      "reference_page": 66
+    },
+    {
+      "id": "M19",
+      "part": "specialist",
+      "reference_id": "M19",
+      "reference_page": 66
+    },
+    {
+      "id": "M20",
+      "part": "specialist",
+      "reference_id": "M21",
+      "reference_page": 66
+    },
+    {
+      "id": "N2",
+      "part": "general",
+      "reference_id": "N2",
+      "reference_page": 67
+    },
+    {
+      "id": "N3",
+      "part": "general",
+      "reference_id": "N3",
+      "reference_page": 67
+    },
+    {
+      "id": "N4",
+      "part": "specialist",
+      "reference_id": "N4",
+      "reference_page": 67
+    },
+    {
+      "id": "N5",
+      "part": "general",
+      "reference_id": "N6",
+      "reference_page": 67
+    },
+    {
+      "id": "N6",
+      "part": "general",
+      "reference_id": "N8",
+      "reference_page": 67
+    },
+    {
+      "id": "N9",
+      "part": "specialist",
+      "reference_id": "N13",
+      "reference_page": 68
+    },
+    {
+      "id": "N11",
+      "part": "general",
+      "reference_id": "N15",
+      "reference_page": 68
+    },
+    {
+      "id": "N12",
+      "part": "general",
+      "reference_id": "N16",
+      "reference_page": 68
+    },
+    {
+      "id": "N17",
+      "part": "general",
+      "reference_id": "N21",
+      "reference_page": 69
+    },
+    {
+      "id": "N18",
+      "part": "specialist",
+      "reference_id": "N22",
+      "reference_page": 69
+    },
+    {
+      "id": "N20",
+      "part": "specialist",
+      "reference_id": "N24",
+      "reference_page": 69
+    },
+    {
+      "id": "N21",
+      "part": "specialist",
+      "reference_id": "N25",
+      "reference_page": 69
+    },
+    {
+      "id": "P1",
+      "part": "general",
+      "reference_id": "P2",
+      "reference_page": 75
+    },
+    {
+      "id": "P2",
+      "part": "general",
+      "reference_id": "P3",
+      "reference_page": 75
+    },
+    {
+      "id": "P4",
+      "part": "general",
+      "reference_id": "P4",
+      "reference_page": 75
+    },
+    {
+      "id": "P7",
+      "part": "specialist",
+      "reference_id": "P12",
+      "reference_page": 76
+    },
+    {
+      "id": "P8",
+      "part": "general",
+      "reference_id": "P13",
+      "reference_page": 76
+    },
+    {
+      "id": "P10",
+      "part": "specialist",
+      "reference_id": "P15",
+      "reference_page": 76
+    },
+    {
+      "id": "P11",
+      "part": "specialist",
+      "reference_id": "P16",
+      "reference_page": 76
+    },
+    {
+      "id": "P13",
+      "part": "specialist",
+      "reference_id": "P17",
+      "reference_page": 76
+    },
+    {
+      "id": "P16",
+      "part": "specialist",
+      "reference_id": "P21",
+      "reference_page": 76
+    },
+    {
+      "id": "P17",
+      "part": "general",
+      "reference_id": "P22",
+      "reference_page": 76
+    },
+    {
+      "id": "P18",
+      "part": "general",
+      "reference_id": "P23",
+      "reference_page": 76
+    },
+    {
+      "id": "P21",
+      "part": "specialist",
+      "reference_id": "P28",
+      "reference_page": 77
+    },
+    {
+      "id": "P22",
+      "part": "specialist",
+      "reference_id": "P30",
+      "reference_page": 77
+    },
+    {
+      "id": "P23",
+      "part": "specialist",
+      "reference_id": "P31",
+      "reference_page": 77
+    },
+    {
+      "id": "P25",
+      "part": "specialist",
+      "reference_id": "P33",
+      "reference_page": 77
+    },
+    {
+      "id": "R1",
+      "part": "general",
+      "reference_id": "R3",
+      "reference_page": 78
+    },
+    {
+      "id": "R2",
+      "part": "general",
+      "reference_id": "R5",
+      "reference_page": 78
+    },
+    {
+      "id": "R3",
+      "part": "general",
+      "reference_id": "R6",
+      "reference_page": 78
+    },
+    {
+      "id": "R4",
+      "part": "general",
+      "reference_id": "R7",
+      "reference_page": 78
+    },
+    {
+      "id": "R6",
+      "part": "general",
+      "reference_id": "R9",
+      "reference_page": 78
+    },
+    {
+      "id": "R8",
+      "part": "general",
+      "reference_id": "R11",
+      "reference_page": 79
+    },
+    {
+      "id": "R9",
+      "part": "general",
+      "reference_id": "R12",
+      "reference_page": 79
+    },
+    {
+      "id": "R11",
+      "part": "general",
+      "reference_id": "R14",
+      "reference_page": 79
+    },
+    {
+      "id": "R12",
+      "part": "general",
+      "reference_id": "R15",
+      "reference_page": 79
+    },
+    {
+      "id": "R13",
+      "part": "general",
+      "reference_id": "R16",
+      "reference_page": 79
+    },
+    {
+      "id": "R15",
+      "part": "general",
+      "reference_id": "R18",
+      "reference_page": 79
+    },
+    {
+      "id": "R16",
+      "part": "general",
+      "reference_id": "R19",
+      "reference_page": 79
+    },
+    {
+      "id": "R17",
+      "part": "general",
+      "reference_id": "R20",
+      "reference_page": 79
+    },
+    {
+      "id": "R18",
+      "part": "general",
+      "reference_id": "R21",
+      "reference_page": 79
+    }
+  ]
+}
